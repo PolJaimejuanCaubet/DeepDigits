@@ -37,12 +37,10 @@ It includes match statistics such as:
    You shoud first have installed `uv` in your global python dependencies, *if not* the case follow this steps:
    ```bash
    pip install uv
-   uv --version (for verify that installation goes correctly)
 
-
-   
-   ```bash
-   pip install -r requirements.txt
+   Then, install project dependencies such as pandas, numpy or maplotlib among others.
+   ```bash 
+   uv sync
    
 3. Run the notebook:
 
